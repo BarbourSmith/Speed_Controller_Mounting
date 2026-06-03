@@ -1187,8 +1187,8 @@
             },
             {
               "atomType": "Rectangle",
-              "x": 0.19642857142857142,
-              "y": 0.5738161559888579,
+              "x": 0.20767195767195767,
+              "y": 0.6016713091922006,
               "uniqueID": "id-269",
               "ioValues": [
                 {
@@ -1198,7 +1198,7 @@
                 },
                 {
                   "name": "y length",
-                  "ioValue": 13
+                  "ioValue": 12
                 }
               ]
             },
@@ -1228,7 +1228,7 @@
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "move-extrude-rectangle-16-13-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-8-0--8-0",
+                    "geometry": "move-extrude-rectangle-16-12-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-8-0--6-0",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -1298,8 +1298,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": -8,
-                  "currentEquation": "-8"
+                  "ioValue": -6
                 },
                 {
                   "name": "zDist",
@@ -1439,8 +1438,8 @@
         },
         {
           "atomType": "ExtractTag",
-          "x": 0.8392857142857143,
-          "y": 0.6044568245125348,
+          "x": 0.8432539682539684,
+          "y": 0.596100278551532,
           "uniqueID": "id-266",
           "name": "Extract Tag",
           "ioValues": [
@@ -1451,6 +1450,36 @@
           ],
           "tag": "Plastic",
           "tagIndex": 0
+        },
+        {
+          "atomType": "Export",
+          "x": 0.8167989417989419,
+          "y": 0.8635097493036212,
+          "uniqueID": "id-288",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "File Type",
+              "ioValue": "STEP",
+              "currentEquation": "STEP"
+            },
+            {
+              "name": "Resolution (dpi)",
+              "ioValue": 96
+            },
+            {
+              "name": "Part Name",
+              "ioValue": "Mounting Bracket",
+              "currentEquation": "Mounting Bracket"
+            }
+          ],
+          "type": "STEP",
+          "resolution": 96,
+          "importIndex": 0,
+          "partName": "Mounting Bracket"
         }
       ],
       "allConnectors": [
@@ -1533,14 +1562,19 @@
           "ap2Name": "Shape 5",
           "ap1ID": "id-259",
           "ap2ID": "id-131"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-266",
+          "ap2ID": "id-288"
         }
       ],
       "fileTypeVersion": 1
     },
     {
       "atomType": "Molecule",
-      "x": 0.2208994708994709,
-      "y": 0.7855153203342619,
+      "x": 0.21759259259259256,
+      "y": 0.7799442896935932,
       "uniqueID": "id-12",
       "name": "Router Template",
       "topLevel": false,
@@ -1556,13 +1590,149 @@
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.21693121693121695,
+          "y": 0.36490250696378834,
+          "uniqueID": "id-293",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 159.75,
+              "currentEquation": "159.75"
+            },
+            {
+              "name": "y length",
+              "ioValue": 159.75,
+              "currentEquation": "6.25*25.4+1"
+            }
+          ]
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.21362433862433863,
+          "y": 0.649025069637883,
+          "uniqueID": "id-297",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 184.75,
+              "currentEquation": "159.75+25"
+            },
+            {
+              "name": "y length",
+              "ioValue": 184.75,
+              "currentEquation": "159.75+25"
+            }
+          ]
+        },
+        {
+          "atomType": "Difference",
+          "x": 0.38293650793650796,
+          "y": 0.4735376044568245,
+          "uniqueID": "id-301",
+          "ioValues": [
+            {
+              "name": "retain",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "remove",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.5198412698412698,
+          "y": 0.5041782729805014,
+          "uniqueID": "id-305",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Gcode",
+          "x": 0.6878306878306879,
+          "y": 0.766016713091922,
+          "uniqueID": "id-309",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Tool Size",
+              "ioValue": 3.125,
+              "currentEquation": "3.125"
+            },
+            {
+              "name": "Passes",
+              "ioValue": 1
+            },
+            {
+              "name": "Speed",
+              "ioValue": 2000
+            },
+            {
+              "name": "Cut Through",
+              "ioValue": 0
+            },
+            {
+              "name": "Part Name",
+              "ioValue": "Router Template",
+              "currentEquation": "Router Template"
+            }
+          ],
+          "partName": "Router Template",
+          "sortDirection": "Left"
         }
       ],
-      "allConnectors": [],
+      "allConnectors": [
+        {
+          "ap2Name": "remove",
+          "ap1ID": "id-293",
+          "ap2ID": "id-301"
+        },
+        {
+          "ap2Name": "retain",
+          "ap1ID": "id-297",
+          "ap2ID": "id-301"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-301",
+          "ap2ID": "id-305"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-305",
+          "ap2ID": "id-14"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-305",
+          "ap2ID": "id-309"
+        }
+      ],
       "fileTypeVersion": 1
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-8",
+      "ap2ID": "id-2"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
