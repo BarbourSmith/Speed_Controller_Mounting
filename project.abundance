@@ -75,8 +75,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.26521164021164023,
-          "y": 0.5431754874651811,
+          "x": 0.27050264550264547,
+          "y": 0.6044568245125348,
           "uniqueID": "id-31",
           "ioValues": [
             {
@@ -85,8 +85,8 @@
             },
             {
               "name": "xDist",
-              "ioValue": -58,
-              "currentEquation": "-120/2+2"
+              "ioValue": -62.5,
+              "currentEquation": "-62.5"
             },
             {
               "name": "yDist",
@@ -112,8 +112,8 @@
             },
             {
               "name": "xDist",
-              "ioValue": 60,
-              "currentEquation": "120/2"
+              "ioValue": 60.5,
+              "currentEquation": "60.5"
             },
             {
               "name": "yDist",
@@ -122,8 +122,8 @@
             },
             {
               "name": "zDist",
-              "ioValue": 90.89999999999999,
-              "currentEquation": "3.5*25.4+2"
+              "ioValue": 88.89999999999999,
+              "currentEquation": "88.89999999999999"
             }
           ]
         },
@@ -689,8 +689,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.5026455026455027,
-          "y": 0.9164345403899721,
+          "x": 0.5145502645502645,
+          "y": 0.9080779944289693,
           "uniqueID": "id-142",
           "name": "Wood Screw Mounting",
           "topLevel": false,
@@ -722,8 +722,8 @@
             },
             {
               "atomType": "Extrude",
-              "x": 0.42063492063492064,
-              "y": 0.1615598885793872,
+              "x": 0.42394179894179895,
+              "y": 0.1671309192200557,
               "uniqueID": "id-149",
               "ioValues": [
                 {
@@ -732,8 +732,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 8,
-                  "currentEquation": "8"
+                  "ioValue": 13
                 }
               ]
             },
@@ -1164,15 +1163,14 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 8.2,
-                  "currentEquation": "8.2"
+                  "ioValue": 13.2
                 }
               ]
             },
             {
               "atomType": "Assembly",
-              "x": 0.6461640211640212,
-              "y": 0.4233983286908078,
+              "x": 0.6541005291005291,
+              "y": 0.44846796657381616,
               "uniqueID": "id-228",
               "ioValues": [
                 {
@@ -1214,8 +1212,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 8,
-                  "currentEquation": "8"
+                  "ioValue": 13
                 }
               ]
             },
@@ -1228,7 +1225,7 @@
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "move-extrude-rectangle-16-12-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-8-0--6-0",
+                    "geometry": "move-extrude-rectangle-16-12-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-13-0--6-0",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -1255,7 +1252,7 @@
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": "extrude-circle-8-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-8",
+                    "geometry": "extrude-circle-8-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-13",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -1363,8 +1360,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.6071428571428572,
-          "y": 0.6991643454038997,
+          "x": 0.611111111111111,
+          "y": 0.7103064066852367,
           "uniqueID": "id-236",
           "ioValues": [
             {
@@ -1453,8 +1450,8 @@
         },
         {
           "atomType": "Export",
-          "x": 0.8167989417989419,
-          "y": 0.8635097493036212,
+          "x": 0.8214285714285714,
+          "y": 0.871866295264624,
           "uniqueID": "id-288",
           "ioValues": [
             {
