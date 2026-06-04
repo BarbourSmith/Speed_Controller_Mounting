@@ -1691,6 +1691,36 @@
           ],
           "partName": "Router Template",
           "sortDirection": "Left"
+        },
+        {
+          "atomType": "Export",
+          "x": 0.6752645502645503,
+          "y": 0.3064066852367688,
+          "uniqueID": "id-321",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "File Type",
+              "ioValue": "STEP",
+              "currentEquation": "STEP"
+            },
+            {
+              "name": "Resolution (dpi)",
+              "ioValue": 96
+            },
+            {
+              "name": "Part Name",
+              "ioValue": "Router Template",
+              "currentEquation": "Router Template"
+            }
+          ],
+          "type": "STEP",
+          "resolution": 96,
+          "importIndex": 0,
+          "partName": "Router Template"
         }
       ],
       "allConnectors": [
@@ -1718,6 +1748,11 @@
           "ap2Name": "geometry",
           "ap1ID": "id-305",
           "ap2ID": "id-309"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-305",
+          "ap2ID": "id-321"
         }
       ],
       "fileTypeVersion": 1
