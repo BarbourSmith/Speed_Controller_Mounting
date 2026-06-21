@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.21759259259259256,
-      "y": 0.7799442896935932,
+      "x": 0.21031746031746032,
+      "y": 0.7883008356545962,
       "uniqueID": "id-12",
       "name": "Router Template",
       "topLevel": false,
@@ -142,8 +142,8 @@
         },
         {
           "atomType": "Export",
-          "x": 0.6752645502645503,
-          "y": 0.3064066852367688,
+          "x": 0.6726190476190476,
+          "y": 0.3008356545961003,
           "uniqueID": "id-321",
           "ioValues": [
             {
@@ -278,8 +278,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 73.89999999999999,
-              "currentEquation": "73.89999999999999"
+              "ioValue": 73.89999999999999
             }
           ]
         },
@@ -484,6 +483,23 @@
           "resolution": 96,
           "importIndex": 0,
           "partName": "Mounting Bracket"
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.25925925925925924,
+          "y": 0.3983286908077995,
+          "uniqueID": "id-533",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 73.89999999999999,
+              "currentEquation": "(3.5*25.4)-15"
+            }
+          ]
         },
         {
           "atomType": "GitHubMolecule",
@@ -1652,23 +1668,6 @@
             }
           ],
           "fileTypeVersion": 1
-        },
-        {
-          "atomType": "Extrude",
-          "x": 0.25925925925925924,
-          "y": 0.3983286908077995,
-          "uniqueID": "id-533",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 73.89999999999999,
-              "currentEquation": "(3.5*25.4)-15"
-            }
-          ]
         }
       ],
       "allConnectors": [
@@ -1744,6 +1743,11 @@
         },
         {
           "ap2Name": "geometry",
+          "ap1ID": "id-533",
+          "ap2ID": "id-135"
+        },
+        {
+          "ap2Name": "geometry",
           "ap1ID": "id-74",
           "ap2ID": "id-31"
         },
@@ -1756,11 +1760,6 @@
           "ap2Name": "geometry",
           "ap1ID": "id-142",
           "ap2ID": "id-236"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-533",
-          "ap2ID": "id-135"
         }
       ],
       "fileTypeVersion": 1
